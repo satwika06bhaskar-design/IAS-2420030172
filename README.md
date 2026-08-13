@@ -1,6 +1,6 @@
-# IAS-2420030172
 
-## Information Assurance and Security - ALM
+
+## Information Assurance and Security - ALM-TASK-1
 
 A Python-based client-server cryptography project implementing **Caesar Cipher, Playfair Cipher, and Simple Data Encryption Standard (SDES)** with two-way communication, encryption/decryption, and SDES file transfer.
 
