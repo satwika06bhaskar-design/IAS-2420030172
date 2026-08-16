@@ -1,10 +1,29 @@
+# Information Assurance and Security (IAS) – Assignment 1
 
+## Student Details
 
-## Information Assurance and Security - ALM-TASK-1
+**Name:** Satwika  
+**Roll Number:** 2420030172  
+**Section:** 11  
 
-A Python-based client-server cryptography project implementing **Caesar Cipher, Playfair Cipher, and Simple Data Encryption Standard (SDES)** with two-way communication, encryption/decryption, and SDES file transfer.
+**GitHub Repository:**  
+https://github.com/satwika06bhaskar-design/IAS-2420030172.git
 
-## Project Structure
+---
+
+# Assignment 1 – Cryptography and Secure File Transfer
+
+This project implements three cryptographic techniques using Python:
+
+1. Caesar Cipher
+2. Playfair Cipher
+3. SDES / DES File Transfer
+
+The project demonstrates encryption, decryption, client-server communication, and secure transfer of text and binary files.
+
+---
+
+# Project Structure
 
 ```text
 IAS-2420030172/
@@ -23,9 +42,6 @@ IAS-2420030172/
     ├── client.py
     ├── server.py
     │
-    └── SDES-FILE/
-        ├── client.py
-        ├── server.py
-        ├── create_files.py
-        ├── client_1MB.txt
-        └── server_10KB.txt
+    └── files/
+        ├── client_1MB.pdf
+        └── server_10KB.bin
