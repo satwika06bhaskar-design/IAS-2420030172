@@ -69,6 +69,6 @@ IAS-2420030172/
         │       └── test.bin
         │
         └── screenshots/
-            ├── From client to server.jpg
-            ├── server to client.jpg
-            └── Starting of both server and client.jpg
+            ├── client_to_server.jpg
+            ├── server_to_client.jpg
+            └── starting_server_client.jpg
