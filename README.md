@@ -22,26 +22,51 @@ Task 1 implements three cryptographic techniques using Python:
 The task demonstrates encryption, decryption, client-server communication, and secure transfer of text and binary files.
 
 ## Task 1 Project Structure
+
+```text
 IAS-2420030172/
 │
 ├── README.md
 │
 ├── TASK-1/
+│   │
 │   ├── Caesar/
+│   │   ├── client.py
+│   │   └── server.py
+│   │
 │   ├── Playfair/
+│   │   ├── client.py
+│   │   └── server.py
+│   │
 │   └── SDES/
 │       ├── client.py
 │       ├── server.py
-│       ├── files/
-
-
-TASK-2/
+│       │
+│       └── files/
+│           ├── client_1MB.pdf
+│           └── server_10KB.bin
+│
+└── TASK-2/
+    │
     └── AES/
         ├── client.py
         ├── server.py
+        │
         ├── files/
+        │   │
         │   ├── CLIENT_TO_SERVER/
+        │   │   ├── client_10KB.txt
+        │   │   ├── client_document.pdf
+        │   │   ├── client_document.docx
+        │   │   ├── image.jpg
+        │   │   └── test.bin
+        │   │
         │   └── SERVER_TO_CLIENT/
+        │       ├── server_5KB.txt
+        │       ├── server_document.pdf
+        │       ├── server_document.docx
+        │       ├── image.png
+        │       └── test.bin
         │
         └── screenshots/
             ├── From client to server.jpg
