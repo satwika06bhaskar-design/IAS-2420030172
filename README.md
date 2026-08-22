@@ -46,29 +46,17 @@ IAS-2420030172/
 │           ├── client_1MB.pdf
 │           └── server_10KB.bin
 │
-└── TASK-2/
-    │
-    └── AES/
-        ├── client.py
-        ├── server.py
-        │
-        ├── files/
-        │   │
-        │   ├── CLIENT_TO_SERVER/
-        │   │   ├── client_10KB.txt
-        │   │   ├── client_document.pdf
-        │   │   ├── client_document.docx
-        │   │   ├── image.jpg
-        │   │   └── test.bin
-        │   │
-        │   └── SERVER_TO_CLIENT/
-        │       ├── server_5KB.txt
-        │       ├── server_document.pdf
-        │       ├── server_document.docx
-        │       ├── image.png
-        │       └── test.bin
-        │
-        └── screenshots/
-            ├── client_to_server.jpg
-            ├── server_to_client.jpg
-            └── starting_server_client.jpg
+└── 
+# TASK 2 – AES File Transfer Screenshots
+
+## Starting of Both Server and Client
+
+![Starting Server and Client](TASK-2/AES/screenshots/starting_server_client.jpg)
+
+## Client → Server File Transfer
+
+![Client to Server](TASK-2/AES/screenshots/client_to_server.jpg)
+
+## Server → Client File Transfer
+
+![Server to Client](TASK-2/AES/screenshots/server_to_client.jpg)
