@@ -50,13 +50,12 @@ IAS-2420030172/
 # TASK 2 – AES File Transfer Screenshots
 
 ## Starting of Both Server and Client
-
-![Starting Server and Client](TASK-2/AES/screenshots/starting_server_client.jpg)
+"C:\IAS\TASK-2\AES\screenshots\starting_server_client.jpg.jpg"
 
 ## Client → Server File Transfer
-
-![Client to Server](TASK-2/AES/screenshots/client_to_server.jpg)
+"C:\IAS\TASK-2\AES\screenshots\client_to_server.jpg.jpg"
 
 ## Server → Client File Transfer
 
-![Server to Client](TASK-2/AES/screenshots/server_to_client.jpg)
+"C:\IAS\TASK-2\AES\screenshots\server_to_client.jpg.jpg"
+
