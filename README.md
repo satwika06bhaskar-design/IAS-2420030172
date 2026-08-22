@@ -22,53 +22,28 @@ Task 1 implements three cryptographic techniques using Python:
 The task demonstrates encryption, decryption, client-server communication, and secure transfer of text and binary files.
 
 ## Task 1 Project Structure
-
-```text
 IAS-2420030172/
 │
 ├── README.md
 │
-├── Caesar/
-│   ├── client.py
-│   └── server.py
-│
-├── Playfair/
-│   ├── client.py
-│   └── server.py
-│
-└── SDES/
-    ├── client.py
-    ├── server.py
-    │
-    └── files/
-        ├── client_1MB.pdf
-        └── server_10KB.bin
-TASK 2 – AES File Transfer
+├── TASK-1/
+│   ├── Caesar/
+│   ├── Playfair/
+│   └── SDES/
+│       ├── client.py
+│       ├── server.py
+│       ├── files/
 
-Task 2 implements AES-based secure file transfer using Python and the PyCryptodome package.
 
-The task demonstrates AES encryption, decryption, client-server communication, and secure transfer of text and binary files.
-
-## Task 2 Project Structure
-
-```text
-AES/
-│
-├── client.py
-├── server.py
-│
-└── files/
-    │
-    ├── CLIENT_TO_SERVER/
-    │   ├── client_10KB.txt
-    │   ├── client_document.pdf
-    │   ├── client_document.docx
-    │   ├── image.jpg
-    │   └── test.bin
-    │
-    └── SERVER_TO_CLIENT/
-        ├── server_5KB.txt
-        ├── server_document.pdf
-        ├── server_document.docx
-        ├── image.png
-        └── test.bin
+TASK-2/
+    └── AES/
+        ├── client.py
+        ├── server.py
+        ├── files/
+        │   ├── CLIENT_TO_SERVER/
+        │   └── SERVER_TO_CLIENT/
+        │
+        └── screenshots/
+            ├── From client to server.jpg
+            ├── server to client.jpg
+            └── Starting of both server and client.jpg
