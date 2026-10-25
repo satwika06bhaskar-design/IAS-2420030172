@@ -1,3 +1,4 @@
+
 # SENTINEL — Intrusion Detection & Firewall Simulator
 
 Sentinel is a comprehensive, full-stack educational cybersecurity web application designed to demonstrate the fundamentals of network perimeter defense, rule-based packet filtering, deterministic signature-based intrusion detection (IDS), and statistical anomaly detection.
@@ -264,3 +265,79 @@ python -m pytest tests/test_all_requirements.py -v
    - Use the **Interactive Access Verification Tool** to test connections on port 22 (SSH - Allowed with MFA challenge) vs port 23 (Telnet - Rejected).
 8. **Study Educational References:**
    - Navigate to **Threat Encyclopedia** and **Protocol & Firewall Concepts** for academic explanations, comparison matrices, and mitigation techniques.
+=======
+# Information Assurance and Security (IAS)
+
+## Student Details
+
+**Name:** P. SATWIKA REDDY  
+**Roll Number:** 2420030172  
+**Section:** 11  
+
+**GitHub Repository:**  
+https://github.com/satwika06bhaskar-design/IAS-2420030172.git
+
+---
+
+# TASK 1 – Cryptography and Secure File Transfer
+
+Task 1 implements three cryptographic techniques using Python:
+
+1. Caesar Cipher
+2. Playfair Cipher
+3. SDES / DES File Transfer
+
+The task demonstrates encryption, decryption, client-server communication, and secure transfer of text and binary files.
+
+## Task 1 Project Structure
+
+```text
+IAS-2420030172/
+│
+├── README.md
+│
+├── TASK-1/
+│   │
+│   ├── Caesar/
+│   │   ├── client.py
+│   │   └── server.py
+│   │
+│   ├── Playfair/
+│   │   ├── client.py
+│   │   └── server.py
+│   │
+│   └── SDES/
+│       ├── client.py
+│       ├── server.py
+│       │
+│       └── files/
+│           ├── client_1MB.pdf
+│           └── server_10KB.bin
+│
+└── TASK-2/
+    │
+    └── AES/
+        ├── client.py
+        ├── server.py
+        │
+        ├── files/
+        │   │
+        │   ├── CLIENT_TO_SERVER/
+        │   │   ├── client_10KB.txt
+        │   │   ├── client_document.pdf
+        │   │   ├── client_document.docx
+        │   │   ├── image.jpg
+        │   │   └── test.bin
+        │   │
+        │   └── SERVER_TO_CLIENT/
+        │       ├── server_5KB.txt
+        │       ├── server_document.pdf
+        │       ├── server_document.docx
+        │       ├── image.png
+        │       └── test.bin
+        │
+        └── screenshots/
+            ├── starting_server_client.jpg
+            ├── client_to_server.jpg
+            └── server_to_client.jpg
+
